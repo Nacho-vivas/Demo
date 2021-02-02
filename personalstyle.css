@@ -323,3 +323,27 @@ main.eventos{
   color:white;
   
 }
+.alumnos, th, td{
+  color:white;
+  border: 2px double rgb(218, 158, 47);
+  caption-side:top;
+  text-align:center;
+}
+.alumnos{
+  width:100%;
+  height:300px;
+}
+th{
+    font-size:1.5em;
+    
+}
+td{
+    font-size:medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+caption{
+    font-size:2em;
+    font-family:fantasy;
+    padding:1rem 1rem 1.5rem 0rem;
+    
+}
