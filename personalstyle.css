@@ -345,31 +345,10 @@ caption{
     font-size:2em;
     font-family:fantasy;
     padding:1rem 1rem 1.5rem 0rem;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
-<<<<<<< HEAD
-=======
+ul{
+  list-style-type:lower-greek;
 }
->>>>>>> features/tables
-=======
-}
->>>>>>> features/tables
-=======
- 
->>>>>>> features/tables
-=======
-}
->>>>>>> features/tables
-=======
-}
-.curso{
-  list-style-type:square;
-}
-.curso ul{
+ul li{
   list-style-type:lower-latin;
 }
->>>>>>> features/tables
