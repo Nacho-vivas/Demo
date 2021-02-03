@@ -346,6 +346,7 @@ caption{
     font-family:fantasy;
     padding:1rem 1rem 1.5rem 0rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -361,5 +362,14 @@ caption{
  
 >>>>>>> features/tables
 =======
+}
+>>>>>>> features/tables
+=======
+}
+.curso{
+  list-style-type:square;
+}
+.curso ul{
+  list-style-type:lower-latin;
 }
 >>>>>>> features/tables
