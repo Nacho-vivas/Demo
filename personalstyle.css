@@ -26,7 +26,7 @@ body{
 }
 
 
-ul{
+.navbar{
   list-style-type:none;
   margin:0;
   padding:10px;
@@ -38,10 +38,10 @@ ul{
   
   
 }
-li{
+.text{
   font-family:comic sans-serif;
 }
-li a:hover:active{
+.text li a:hover:active{
   background-color:green;
 }
 
@@ -349,9 +349,13 @@ caption{
 <<<<<<< HEAD
 <<<<<<< HEAD
 }
+<<<<<<< HEAD
 =======
 }
 >>>>>>> features/tables
 =======
 }
+>>>>>>> features/tables
+=======
+ 
 >>>>>>> features/tables
