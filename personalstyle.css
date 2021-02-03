@@ -346,3 +346,9 @@ caption{
     font-family:fantasy;
     padding:1rem 1rem 1.5rem 0rem;
 }
+.curso{
+  list-style-type:square;
+}
+.curso ul{
+  list-style-type:lower-latin;
+}
