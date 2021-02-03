@@ -227,7 +227,6 @@ main.eventos{
   
 }
 
-
 .footer{
   margin-top:50px;
   font-size:0.7rem;
@@ -235,94 +234,87 @@ main.eventos{
   color:white;
   font-size:0.7rem;
 }
-.presentaciones{
-  display:grid;
-  grid-template-columns:repeat 6 (200px);
-  grid-template-rows:auto;    
+.presentationcard{
+  display:inline-flex;
+  padding:40px
+  
+    
 }
 .intro{
-  grid-column:1/4;
-  grid-row:2;
-  margin-right:100px;
-  margin-bottom:50px;
-  justify-self:center;
+
+  text-align:center;
   color:white;
   font-size:1.2em;
 }
 .lluis{
-  grid-column:1/1;
-  grid-row:3;
+  
   height:100px;
   width:100px;
   border-radius:40px;
-  justify-self:center;
   margin-bottom:20px;
+  margin-right:10px;
+  
   
 }
 .lluisgarcia{
-  grid-column:2/2;
-  grid-row:3;
   margin-bottom:30px;
-  justify-self:center;
+  margin-right:20px;
   color:wheat;
+  justify-self:center;
+  
+
 }
 .lluispresentation{
-  grid-column:3/3;
-  grid-row:3;
   margin-bottom:30px;
   justify-self:center;
   color:white;
   
 }
 .berto{
-  grid-column:4/4;
-  grid-row:4;
   height:100px;
   width:100px;
   border-radius:40px;
-  justify-self:center;
-  margin-bottom:20px;
-  
+  margin-bottom:30px;
+  margin-right:20px;
 }
-.bertodavila{
-  grid-column:3/3;
-  grid-row:4;
-  margin-bottom:60px;
-  justify-self:center;
-  color:wheat;
   
+.bertodavila{
+  margin-bottom:60px;
+  color:wheat;
+  margin-bottom:30px;
+  margin-right:20px;
 }
 .bertopresentation{
-  grid-column:2/2;
-  grid-row:4;
   margin-bottom:60px;
   justify-self:center;
   color:white;
   
 }
 .Fer{
-  grid-column:1/1;
-  grid-row:5;
   height:100px;
   width:100px;
   border-radius:40px;
   justify-self:center;
+  margin-bottom:30px;
+  margin-right:20px;
 }
+
 .ferdossantos{
-  grid-column:1/3;
-  grid-row:5;
   margin-bottom:30px;
   justify-self:center;
   color:wheat;
+  margin-bottom:30px;
+  margin-right:20px;
 }
+
 .ferpresentation{
-  grid-column:3/3;
-  grid-row:5;
   margin-bottom:30px;
   justify-self:center;
   color:white;
-  
+  margin-bottom:30px;
+  margin-right:20px;
 }
+  
 .alumnos, th, td{
   color:white;
   border: 2px double rgb(218, 158, 47);
@@ -380,4 +372,75 @@ dt{
 dd{
   color:white;
   text-align:center;
+}
+@media screen and (max-width:767px){
+  .logotype{
+    height:50px;
+    position:absolute;
+    left:initial;
+    top: auto;
+    grid-column:1/4;
+    grid-row:1;
+    
+    }
+  .skyline{
+    background-image:relative;
+    height:120px;
+    width:100%;
+  }
+  
+  .head1{
+    position:absolute;
+    margin-left: 30%;
+    margin-top: -25px;
+    font-size:1em;
+  }
+  
+  .navbar{
+    list-style-type:none;
+    margin:0;
+    padding:5px;
+    font-size:0.7em;
+    display:flex;
+    justify-content: space-between;
+    flex-direction:row;
+    margin-bottom:20px;
+  }
+  .dropbtn {
+    
+    font-size: 1em;
+    
+  }
+  main.eventos{
+    display:flex;
+    flex-direction:column;
+  }
+  .head2{
+    font-size: 2em;
+  }
+  .date,.day, .type, .modality {
+    font-size:1.5em;
+    
+  }
+  
+  .date2,.day2, .type2, .modality2 {
+    font-size:1.5em;
+    
+  }
+  .date3,.day3, .type3, .modality3 {
+    font-size:1.5em;
+    
+  }
+  .inscribirme, .inscribirme2, .incribirme3{
+    margin-top:10px;
+    margin-bottom:30px;
+  }
+  
+  .presentaciones{
+    display:flex;
+    flex-direction:column;
+  }
+  
+    
+  
 }
