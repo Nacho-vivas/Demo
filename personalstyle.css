@@ -26,7 +26,7 @@ body{
 }
 
 
-ul{
+.navbar{
   list-style-type:none;
   margin:0;
   padding:10px;
@@ -38,10 +38,10 @@ ul{
   
   
 }
-li{
+.text{
   font-family:comic sans-serif;
 }
-li a:hover:active{
+.text li a:hover:active{
   background-color:green;
 }
 
@@ -347,3 +347,4 @@ caption{
     padding:1rem 1rem 1.5rem 0rem;
     
 }
+ 
