@@ -354,13 +354,20 @@ caption{
   text-align:center;
 }
 .curso{
+  display:flex;
   list-style-type:decimal;
-  margin-left:300px;
   color:white;
+  list-style-position:center;
+  flex-direction:column;
+  align-items:center;
+  
+  
    
 }
 .tipos{
-  list-style-type:lower-latin;
+   list-style-type:lower-latin;
+  
+  
 
 }
 dt{
