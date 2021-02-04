@@ -314,16 +314,6 @@ form section div{
   
 }
 
-form section{
-  
-}
-
-
-
-
-
-  
-
 @media screen and (max-width:767px){
   .logotype{
     height:50px;
@@ -379,8 +369,6 @@ form section{
   .day, .modality, .type{
     font-size:1em;
   }
-  
- 
   
   .presentaciones{
     display:flex;
