@@ -329,18 +329,18 @@ dd{
 }
 form section{
   display:flex;
-  justify-content:space-around;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
   color:khaki;
   padding:20px;
   
 }
 
 form section div input{
-  flex-wrap:nowrap;
   width:100%;
 }
 .comentarios{
-  width:740px;
+  width:100%;
   flex-wrap:wrap;
   
 }
@@ -349,6 +349,10 @@ form section div input{
   flex-wrap:wrap;
   
 }
+
+  
+
+
 
 
 
