@@ -113,7 +113,7 @@ main.eventos{
   padding-bottom:10px;
   color:white;
   font-family:cursive;
-  font-size: 3rem;
+  font-size: 1.5rem;
   
 
 }
@@ -166,85 +166,105 @@ main.eventos{
   color:white;
   font-size:0.7rem;
 }
-.presentationcard{
-  display:inline-flex;
-  padding:40px
-  
-    
+main.presentaciones{
+  display:grid;
+  grid-template-columns:repeat (3, auto);
+  color:lightblue;
+  padding:40px;
+  width:80%;
+   
 }
-.intro{
-
+.head2{
+  grid-column:1/4;
+  grid-row:1;
   text-align:center;
   color:white;
-  font-size:1.2em;
+  font-size:3em;
+}
+.intro{
+  grid-column:1/4;
+  grid-row:2;
+  text-align:center;
+  color:white;
+  font-size:1.7em;
 }
 .lluis{
-  
   height:100px;
   width:100px;
   border-radius:40px;
-  margin-bottom:20px;
-  margin-right:10px;
+  align-content:center;
+  padding:30px;
   
   
 }
 .lluisgarcia{
-  margin-bottom:30px;
-  margin-right:20px;
+  grid-column:2;
+  grid-row:3;
+  font-size:2em;
   color:wheat;
-  justify-self:center;
+  align-content:center;
+  padding:30px;
   
 
 }
+
 .lluispresentation{
-  margin-bottom:30px;
-  justify-self:center;
+  grid-column:3;
+  grid-row:3;
+  font-size:1.5em;
+  align-content:center;
   color:white;
+  padding:30px;
   
 }
 .berto{
   height:100px;
   width:100px;
   border-radius:40px;
-  margin-bottom:30px;
-  margin-right:20px;
+  align-content:center;
+  padding:30px;
 }
   
 .bertodavila{
-  margin-bottom:60px;
+  grid-column:2;
+  grid-row:5;
+  font-size:2em;
   color:wheat;
-  margin-bottom:30px;
-  margin-right:20px;
+  align-content:center;
+  padding:30px;
 }
 .bertopresentation{
-  margin-bottom:60px;
-  justify-self:center;
+  grid-column:3;
+  grid-row:5;
+  font-size:1.5em;
+  align-content:center;
   color:white;
-  
+  padding:30px;
 }
 .Fer{
   height:100px;
   width:100px;
   border-radius:40px;
-  justify-self:center;
-  margin-bottom:30px;
-  margin-right:20px;
+  align-content:center;
+  padding:30px;
 }
 
 .ferdossantos{
-  margin-bottom:30px;
-  justify-self:center;
+  grid-column:2;
+  grid-row:4;
+  font-size:2em;
   color:wheat;
-  margin-bottom:30px;
-  margin-right:20px;
+  align-content:center;
+  padding:30px;
 }
 
 .ferpresentation{
-  margin-bottom:30px;
-  justify-self:center;
+  grid-column:3;
+  grid-row:4;
+  font-size:1.5em;
+  align-content:center;
   color:white;
-  margin-bottom:30px;
-  margin-right:20px;
+  padding:30px;
 }
   
 .alumnos, th, td{
@@ -307,12 +327,30 @@ dd{
   color:white;
   text-align:center;
 }
-form section div{
+form section{
   display:flex;
-  align-items:center;
   justify-content:space-around;
+  color:khaki;
+  padding:20px;
   
 }
+
+form section div input{
+  flex-wrap:nowrap;
+  width:100%;
+}
+.comentarios{
+  width:740px;
+  flex-wrap:wrap;
+  
+}
+.comentarios input{
+  height:30mm;
+  flex-wrap:wrap;
+  
+}
+
+
 
 @media screen and (max-width:767px){
   .logotype{
@@ -336,29 +374,32 @@ form section div{
     margin-top: -25px;
     font-size:1em;
   }
-  
-  
-  
-  .dropbtn {
+ .dropbtn {
     
-    font-size: small
+    font-size:1em;
   }
   
   .navbar{
     display:flex;
-    font-size:small;
+    font-size:1em;
     width:90%;
+  }
+  .head{
+    font-size:1.2em;
+    margin-top:25px;
   }
   
   .head2{
-    font-size:1em;
+    font-size:1.5em;
+    margin-top:-40px;
   }
- main.eventos{
+  main.eventos{
     display:flex;
     flex-direction:column;
   }
   .event1{
     margin-bottom:30px;
+    padding:10px;
   }
   .event2{
     margin-bottom:30px;
@@ -370,10 +411,7 @@ form section div{
     font-size:1em;
   }
   
-  .presentaciones{
-    display:flex;
-    flex-direction:column;
-  }
+  
   .alumnos{
     width:100%;
     height:300px;
@@ -394,6 +432,43 @@ form section div{
   .tittle1{
     font-size:large;
   }
+   
+  main.presentaciones{
+    display:flex;
+    flex-direction:column;
     
+  }
+  .intro{
+    font-size:1.2em;
+  }
   
+  .lluis, .lluisgarcia,.lluispresentation{
+    padding:0px;
+    margin-top:10px;
+    font-size:1.2em;
+    align-self:center;
+    
+  }
+  .berto,.bertodavila,.bertopresentation{
+    padding:0px;
+    margin-top:10px;
+    font-size:1.2em;
+    align-self:center;
+  }
+  .Fer, .ferdossantos,.ferpresentation{
+    padding:0px;
+    margin-top:10px;
+    font-size:1.2em;
+    align-self:center;
+  }
+  .alumnos{
+    zoom:70%;
+  }
+  form section{
+    display:flex;
+    flex-direction:column;
+  }
+  .comentarios{
+    width:100%;
+  }
 }

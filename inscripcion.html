@@ -20,41 +20,97 @@
     <section>
      <div>  
        <label for="nombre">Nombre</label>
-       <input type="text" id="nombre">
+       <input type="text" id="nombre" name="nombre"></input>
+     </div>
+     <div>
+       <label for="apellido1">Primer Apellido</label>
+       <input type="text" id="apellido1" name ="apellido1">
     </div>
-    <div>
-       <label for="apellidos">Apellidos</label>
-       <input type="text" id="apellidos">
-    </div>    
-    </form>
-      <section>
+     <div>
+       <label for="apellido2">Segundo Apellido</label>
+       <input type="text" id="apellido2">
+    </div>
+    </section>  
+     <section>
+        <div>
+          <label for="dirección">Dirección</label>
+          <input type="text" id="dirección">
+        </div>
+        <div>
+            <label for="numero">Num</label>
+            <input type="text" id="numero">
+        </div>
+        <div>
+          <label for="portal">portal</label>
+          <input type="text" id="portal">
+       </div>
+        <div>
+           <label for="escalera">Esc</label>
+           <input type="texto" id="escalera"></input>
+       </div>
+       <div>
+        <label for="piso">Piso</label>
+        <input type="text" id="piso">
+     </div>
+    </section>
+    <section>
         <div>  
-          <label for="nombre">Nombre</label>
-          <input type="text" id="nombre">
+          <label for="poblacion">Población</label>
+          <input type="text" id="población">
        </div>
        <div>
-          <label for="apellidos">Apellidos</label>
-          <input type="text" id="apellidos">
-       </div> 
-       </section>
-       <section>
-        <div>  
-          <label for="nombre">Población</label>
-          <input type="text" id="nombre">
+          <label for="cp">Código Postal</label>
+          <input type="text" id="cp">
        </div>
        <div>
-          <label for="apellidos">Código Postal</label>
-          <input type="text" id="apellidos">
-       </div>
-       <div>
-        <label for="apellidos">País</label>
-        <input type="text" id="apellidos">
+        <label for="provincia">Provincia</label>
+        <input type="text" id="provincia">
      </div> 
-     </section>  
-       </form>
-      
-       
-      
+     <div>
+        <label for="pais">Pais</label>
+        <input type="text" id="pais">
+     </div> 
+     </section>
+     <section>
+        <div>  
+          <label for="fecha_nacimiento">Fecha de nacimiento</label>
+          <input type="date" id="fecha_nacimiento">
+       </div>
+       <div>
+          <label for="telefono">Telefono</label>
+          <input type="text" id="telefono" required>
+       </div>
+       <div>
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" required>
+     </div> 
+     </section>
+     <section>
+        <div>
+            <label for="course">Curso</label>
+            <select>
+                <option value="Full Time">Full Time</option>
+                <option value="Part-time">Part Time</option>
+            </select>
+        </div>
+        <div>
+            <label for="online">Online</label>
+             <input type="radio" id="online" value="online" name="course" checked>
+             <label for="presencial">Presencial</label>
+             <input type="radio" id="presencial" value="presencial" name="course">
+        </div>
+      </section>
+      <section class="comentarios">
+          <div class="comentarios">
+          <label for="comentarios">Comentarios</label>
+          <input type="text" id="comentarios">
+       </section>  
+        <section> 
+         <div class="enviar">
+         <input class="boton" type="submit">
+         </div>
+      </section>
+    </form>
        
 </main>
 </body>
