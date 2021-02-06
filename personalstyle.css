@@ -1,8 +1,8 @@
 body{
   background: rgba(68, 0, 255, 0.767);
-  
 }
 
+/*imagen principal*/
 .logotype{
   height:120px;
   position:absolute;
@@ -10,16 +10,14 @@ body{
   grid-column:1/4;
   grid-row:1;
   margin:auto;
-  
-  
-  
-  }
+}
+
 .skyline{
   background-image:relative;
   height:300px;
   width:100%;
-  
 }
+
 .head1{
   position:absolute;
   margin-left: 45%;
@@ -29,6 +27,7 @@ body{
 }
 
 
+/*barra de navegación*/
 .navbar{
   list-style-type:none;
   width:99%;
@@ -39,15 +38,14 @@ body{
   justify-content: space-between;
   flex-direction:row;
   margin-bottom:20px;
-
-  
-  
 }
+
 .text{
   font-family:comic sans-serif;
 }
+
 .text li a:hover:active{
-  background-color:green;
+  background-color:black;
 }
 
 a{
@@ -55,6 +53,7 @@ a{
   text-decoration-line:none;
   font-family: sans-serif;
 }
+
 .dropbtn {
   background-color:rgba(33, 33, 163, 0.514);
   color: white;
@@ -96,57 +95,65 @@ a{
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+
+
+/*cuerpo*/
 main{
   width:80%;
   margin:auto;
 }
 
+
+/*home*/
 main.eventos{
   display:grid;
   grid-auto-columns: 4;
   grid-row:auto;
   margin-top:5px;
   text-align:center;
-  
 }
+
 .head{
   grid-column:1/4;
   padding-bottom:10px;
   color:white;
   font-family:cursive;
   font-size: 1.5rem;
-  
-
 }
+
 .event1{
   grid-column:1;
   display:flex;
   flex-direction:column;
   color:white;
-  
 }
+
 .event2{
   grid-column:2;
   display:flex;
   flex-direction:column;
   color:white;
 }
+
 .event3{
   grid-column:3;
   display:flex;
   flex-direction:column;
   color:white;
-    
 }
+
 .date{
   font-size:3em;
 }
+
 .day, .type{
   font-size:2em;
 }
+
 .modality{
   font-size:1.5em;
 }
+
 .boton{
   order:7;
   background-color:blue;
@@ -156,8 +163,6 @@ main.eventos{
   font-style:italic;
   color:white;
   size:15px;
-  
-  
 }
 
 .footer{
@@ -167,14 +172,17 @@ main.eventos{
   color:white;
   font-size:0.7rem;
 }
+
+
+/*conocenos*/
 main.presentaciones{
   display:grid;
   grid-template-columns:repeat (3, auto);
   color:lightblue;
   padding:40px;
   width:80%;
-   
 }
+
 .head2{
   grid-column:1/4;
   grid-row:1;
@@ -182,6 +190,7 @@ main.presentaciones{
   color:white;
   font-size:3em;
 }
+
 .intro{
   grid-column:1/4;
   grid-row:2;
@@ -189,15 +198,15 @@ main.presentaciones{
   color:white;
   font-size:1.7em;
 }
+
 .lluis{
   height:100px;
   width:100px;
   border-radius:40px;
   align-content:center;
   padding:30px;
-  
-  
 }
+
 .lluisgarcia{
   grid-column:2;
   grid-row:3;
@@ -205,8 +214,6 @@ main.presentaciones{
   color:wheat;
   align-content:center;
   padding:30px;
-  
-
 }
 
 .lluispresentation{
@@ -216,8 +223,8 @@ main.presentaciones{
   align-content:center;
   color:white;
   padding:30px;
-  
 }
+
 .berto{
   height:100px;
   width:100px;
@@ -234,6 +241,7 @@ main.presentaciones{
   align-content:center;
   padding:30px;
 }
+
 .bertopresentation{
   grid-column:3;
   grid-row:5;
@@ -242,6 +250,7 @@ main.presentaciones{
   color:white;
   padding:30px;
 }
+
 .Fer{
   height:100px;
   width:100px;
@@ -267,7 +276,9 @@ main.presentaciones{
   color:white;
   padding:30px;
 }
-  
+
+/*info*/
+/*tabla*/ 
 .alumnos, th, td{
   color:white;
   border: 2px double rgb(218, 158, 47);
@@ -294,12 +305,13 @@ caption{
     color:wheat;
 }
 .tittle1{
-  margin-left:70px;
   margin-top:50px;
   font-size: 2.1em;
   color:wheat;
   text-align:center;
 }
+
+/*listado curso*/
 .curso{
   display:flex;
   list-style-type:decimal;
@@ -307,16 +319,14 @@ caption{
   list-style-position:center;
   flex-direction:column;
   align-items:center;
-  
-  
-   
 }
+
 .tipos{
    list-style-type:lower-latin;
-  
-  
-
 }
+
+
+/*listado tareas diarias*/
 dt{
   color:khaki;
   list-style-type:decimal;
@@ -327,6 +337,7 @@ dt{
 dd{
   color:white;
   text-align:center;
+/*formulario*/
 }
 form section{
   display:flex;
@@ -334,29 +345,24 @@ form section{
   justify-content:space-evenly;
   color:khaki;
   padding:20px;
- 
 }
 
 form section div input{
   width:100%;
 }
+
 .comentarios{
   width:100%;
   flex-wrap:wrap;
-  
 }
+
 .comentarios input{
   height:30mm;
   flex-wrap:wrap;
-  
 }
 
-  
 
-
-
-
-
+/*media queries*/
 @media screen and (max-width:767px){
   .logotype{
     height:50px;
@@ -365,23 +371,22 @@ form section div input{
     top: auto;
     grid-column:1/4;
     grid-row:1;
-    
-    }
+  }
+
   .skyline{
     background-image:relative;
     height:120px;
     width:100%;
   }
-  
-  
+    
   .head1{
     position:absolute;
     margin-left: 30%;
     margin-top: -25px;
     font-size:1em;
   }
+
  .dropbtn {
-    
     font-size:1em;
   }
   
@@ -390,6 +395,7 @@ form section div input{
     font-size:0.9em;
     width:90%;
   }
+
   .head{
     font-size:1.2em;
     margin-top:25px;
@@ -399,42 +405,48 @@ form section div input{
     font-size:1.5em;
     margin-top:-40px;
   }
+
   main.eventos{
     display:flex;
     flex-direction:column;
   }
+
   .event1{
     margin-bottom:30px;
     padding:10px;
   }
+
   .event2{
     margin-bottom:30px;
   }
+
   .date{
     font-size: 1.5em;
   }
+
   .day, .modality, .type{
     font-size:1em;
   }
-  
-  
+    
   .alumnos{
     width:100%;
     height:300px;
     overflow-x:auto;
   }
+
   th{
       font-size:1em;
-      
   }
+
   td{
       font-size:small;
       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
+
   caption{
       font-size:1em;
-      
   }
+
   .tittle1{
     font-size:large;
   }
@@ -442,8 +454,8 @@ form section div input{
   main.presentaciones{
     display:flex;
     flex-direction:column;
-    
   }
+
   .intro{
     font-size:1.2em;
   }
@@ -452,28 +464,32 @@ form section div input{
     padding:0px;
     margin-top:10px;
     font-size:1.2em;
-    align-self:center;
-    
+    align-self:center; 
   }
+
   .berto,.bertodavila,.bertopresentation{
     padding:0px;
     margin-top:10px;
     font-size:1.2em;
     align-self:center;
   }
+
   .Fer, .ferdossantos,.ferpresentation{
     padding:0px;
     margin-top:10px;
     font-size:1.2em;
     align-self:center;
   }
+
   .alumnos{
     zoom:70%;
   }
+
   form section{
     display:flex;
     flex-direction:column;
   }
+
   .comentarios{
     width:100%;
   }
